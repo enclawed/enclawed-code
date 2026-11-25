@@ -1,0 +1,35 @@
+{
+  "generatedBy": "enclawde-cli 542a937 (pre-rename), test/helpers.mjs + bin/enclawde-hook.mjs",
+  "home": "/home/user/work/tmp/enclawde-test-xPBuoi/home",
+  "project": "/home/user/work/tmp/enclawde-test-xPBuoi/project",
+  "results": [
+    [
+      "SessionStart",
+      0
+    ],
+    [
+      "Write",
+      "allow",
+      ""
+    ],
+    [
+      "Write audit",
+      "deny"
+    ],
+    [
+      "Bash rm",
+      "ask"
+    ],
+    [
+      "old verify",
+      0,
+      "audit log verifies: 4 records, head 1c7bd214df92859a…, head anchor matched\ndevice anchor: unavailable: no Enclaweder is bound to this process (none attached, or another process owns it)",
+      ""
+    ],
+    [
+      "old history list",
+      0,
+      "[\n  {\n    \"id\": \"78d97045453f\",\n    \"ts\": 1795385558418,\n    \"hash\": \"2d27fbdf4e8ca207afbfa388ca9172fbcc6c70e534af2476b3b704f87debadcf\",\n    \"realPath\": \"/home/user/work/tmp/enclawde-test-xPBuoi/project/notes.txt\",\n    \"path\": \"/home/user/work/tmp/enclawde-test-xPBuoi/project/not"
+    ]
+  ]
+}

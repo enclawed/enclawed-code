@@ -1,0 +1,44 @@
+{
+  "name": "enclawed-code",
+  "version": "0.666.1",
+  "description": "Type ecwcode where you type claude: the same Claude Code, with every tool call checked by Enclawed before it runs.",
+  "license": "MIT",
+  "author": "Alfredo Metere <alfredo.metere@enclawed.com>",
+  "homepage": "https://github.com/enclawed/enclawed-code",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/enclawed/enclawed-code.git"
+  },
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "bin": {
+    "ecwcode": "bin/ecwcode.mjs",
+    "ecwctl": "bin/ecwctl.mjs",
+    "ecwcode-hook": "bin/ecwcode-hook.mjs",
+    "ecwcode-mcp-proxy": "bin/ecwcode-mcp-proxy.mjs"
+  },
+  "files": [
+    "bin/",
+    "src/",
+    "vendor/enclawed-oss/enclawed/src/",
+    "managed/",
+    "legal/",
+    "docs/",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build:framework": "node scripts/build-dev-framework.mjs",
+    "test": "node scripts/test.mjs",
+    "test:live": "node scripts/test-live.mjs",
+    "check:vendor-pin": "node scripts/check-vendor-pin.mjs",
+    "prepack": "node scripts/check-pack.mjs",
+    "check:consumer": "node scripts/check-consumer-install.mjs"
+  },
+  "dependencies": {
+    "enclawed": "2.0.2",
+    "node-domexception": "npm:@enclawed/node-domexception@1.0.0"
+  }
+}

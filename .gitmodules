@@ -1,0 +1,4 @@
+[submodule "vendor/enclawed-oss"]
+	path = vendor/enclawed-oss
+	url = https://github.com/enclawed/enclawed-oss.git
+	branch = main

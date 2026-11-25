@@ -1,0 +1,11 @@
+{
+  "enclawed": {
+    "policy": {}
+  },
+  "enclawde": {
+    "inputCleaner": "audit",
+    "onHardwareHalt": {
+      "eraseClaudeCredentials": false
+    }
+  }
+}

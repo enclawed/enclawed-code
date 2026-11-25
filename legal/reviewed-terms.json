@@ -1,0 +1,58 @@
+{
+  "reviewed": "2026-11-25",
+  "reviewedBy": "Enclawed, Inc.",
+  "review": "docs/legal-review.md",
+  "normalization": "per-page-form-v1",
+  "pages": [
+    {
+      "url": "https://code.claude.com/docs/en/legal-and-compliance.md",
+      "form": "raw",
+      "sha256": "1a7c59468a71304f19e6ce74c8d23b7d71382b81daa5d1c7afe524cc644d6e16",
+      "snapshot": {
+        "fetched": "2026-11-25T07:13:30Z"
+      }
+    },
+    {
+      "url": "https://www.anthropic.com/legal/commercial-terms",
+      "form": "html-text-v1",
+      "sha256": "afcb35fb41752e0b778fb646d3eed7b4817bd734257ea11adf4a827e0c5becad",
+      "reviewedVersion": {
+        "title": "Commercial Terms of Service",
+        "effective": "Jun 17, 2025",
+        "snapshotPdfSha256": "af5032c44336929c06722809e2a29a421175837d91be0de149d3462f1fd3e270",
+        "pages": 12
+      }
+    },
+    {
+      "url": "https://www.anthropic.com/legal/service-specific-terms",
+      "form": "html-text-v1",
+      "sha256": "a244ca342e540ad49d5b38c2b44b2342f9ded1a12bd7b4da247716e894ce4ac7"
+    },
+    {
+      "url": "https://www.anthropic.com/legal/supported-regions",
+      "form": "html-text-v1",
+      "sha256": "f00f6819b19c007896b3bae5af7d054c061a6a7e096b4ef57c260bb350345419"
+    },
+    {
+      "url": "https://www.anthropic.com/legal/consumer-terms",
+      "form": "html-text-v1",
+      "sha256": "316cbc2f2728dda3d48e81be51d7c0a6d15ea44a6588b4ed139c0239df823bf1"
+    },
+    {
+      "url": "https://www.anthropic.com/legal/aup",
+      "form": "html-text-v1",
+      "sha256": "74003daee1d6cc46dd542f4ad6970fc8c66f0e0b706e47cb1a0bfaf6909119f4"
+    },
+    {
+      "url": "https://www.anthropic.com/legal/trademark-guidelines",
+      "form": "html-text-v1",
+      "sha256": "afa3b78d910459cdf4b5f7b82139d880d094cff16f2235514cd0935d7be0991d"
+    }
+  ],
+  "claudeCode": {
+    "versions": [
+      "2.1.326",
+      "2.1.331"
+    ]
+  }
+}
