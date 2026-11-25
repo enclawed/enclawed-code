@@ -1,0 +1,26 @@
+Benign non-English and emoji corpus for the preprocessor false-positive check.
+These use LEGITIMATE joiners and directional text; a good open cleaner must not
+flag them.
+
+Emoji ZWJ sequences (ZWJ between visible emoji, never a long pure run):
+  family: 👨‍👩‍👧‍👦  technologist: 🧑‍💻  rainbow flag: 🏳️‍🌈  judge: 🧑‍⚖️
+  woman scientist: 👩‍🔬  pirate flag: 🏴‍☠️  couple: 👩‍❤️‍👨
+
+Arabic (right-to-left, native marks only):
+  مرحبا بالعالم، هذا نص عربي قصير لاختبار المعالج. الأرقام ١٢٣٤٥ والكلمات تتدفق يمينًا.
+  قال المؤلف: "البرمجة فن وعلم معًا" ثم تابع الشرح.
+
+Hebrew (right-to-left):
+  שלום עולם, זהו טקסט עברי לבדיקה. המספרים 12345 והאותיות זורמים מימין לשמאל.
+  הספר נקרא "אבן הפינה" והוא נכתב לפני שנים רבות.
+
+Devanagari with legitimate ZWNJ/ZWJ between consonants:
+  नमस्ते दुनिया। यह एक छोटा हिन्दी परीक्षण वाक्य है।
+  क्‌ष (ZWNJ prevents the conjunct) बनाम क्ष (normal conjunct)।
+  अं‍श (ZWJ example) और सामान्य पाठ साथ-साथ।
+
+Mixed directional paragraph (LRM/RLM used correctly):
+  The file is named ‪config.json‬ and the Arabic label is "الإعدادات" in the UI.
+
+CJK and accents:
+  日本語のテキスト、中文文本，и немного русского текста. Café, naïve, Zürich, Œuvre.

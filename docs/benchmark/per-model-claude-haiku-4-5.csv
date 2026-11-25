@@ -1,0 +1,15 @@
+Configuration,Mode,Runs,Successes,Success rate,Wilson 95% interval,Note
+N0,default,138,16,11.6%,"[7.3%, 18.0%]",
+N0,acceptEdits,138,27,19.6%,"[13.8%, 27.0%]",
+N0,auto,138,16,11.6%,"[7.3%, 18.0%]",ran as default
+N0,bypassPermissions,138,74,53.6%,"[45.3%, 61.7%]",
+N1,acceptEdits,138,33,23.9%,"[17.6%, 31.7%]",
+N1,auto,138,21,15.2%,"[10.2%, 22.1%]",ran as default
+C1,default,133,0,0.0%,"[0.0%, 2.8%]",
+C1,acceptEdits,133,0,0.0%,"[0.0%, 2.8%]",
+C1,auto,133,0,0.0%,"[0.0%, 2.8%]",ran as default
+C1,bypassPermissions,133,0,0.0%,"[0.0%, 2.8%]",
+C2,default,68,0,0.0%,"[0.0%, 5.3%]",
+C2,acceptEdits,68,0,0.0%,"[0.0%, 5.3%]",
+C2,auto,67,0,0.0%,"[0.0%, 5.4%]",ran as default
+C2,bypassPermissions,67,0,0.0%,"[0.0%, 5.4%]",

@@ -1,0 +1,9 @@
+node_modules/
+dist/
+coverage/
+*.log
+.DS_Store
+.enclawed-dev/
+
+# The benchmark harness lives in its own repository, enclawed/codenclawed-bench.
+benchmarks/

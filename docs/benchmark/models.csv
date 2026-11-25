@@ -1,0 +1,16 @@
+Model requested,Answered by,N0,N1,C1,C2,Total
+claude-haiku-4-5,the model requested,544,272,440,222,1478
+claude-haiku-4-5,no model: codenclawed refused the launch,0,0,92,48,140
+claude-haiku-4-5,no model: the attack cut the session off,8,4,0,0,12
+claude-fable-5-1,the model requested,294,151,277,0,722
+claude-fable-5-1,fallback: claude-fable-5-1 and claude-opus-4-8,74,42,115,0,231
+claude-fable-5-1,fallback: claude-fable-5-1 and claude-opus-5-5,2,0,0,0,2
+claude-fable-5-1,fallback: claude-opus-4-8,172,78,48,0,298
+claude-fable-5-1,fallback: claude-opus-5,2,1,0,0,3
+claude-fable-5-1,no model: codenclawed refused the launch,0,0,92,0,92
+claude-fable-5-1,no model: the attack cut the session off,8,4,0,0,12
+claude-opus-5-5,the model requested,530,261,440,0,1231
+claude-opus-5-5,fallback: claude-opus-4-8 and claude-opus-5-5,14,11,0,0,25
+claude-opus-5-5,no model: codenclawed refused the launch,0,0,92,0,92
+claude-opus-5-5,no model: the attack cut the session off,8,4,0,0,12
+All counted runs,,1656,828,1596,270,4350
